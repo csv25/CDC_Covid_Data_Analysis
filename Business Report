@@ -1,0 +1,31 @@
+Covid-19 Business Report
+Senior Health Officials – CDC
+Prepared by Lisette Cruz and Carlos Vargas 
+February 17, 2023
+
+Covid-19 Timeline
+On January 10, 2020, the World Health Organization (WHO) announced an outbreak of coronavirus-related pneumonia in Wuhan, China. Eleven days later, on March 21, the CDC confirmed its first US coronavirus case in Washington state. On March 11, after more than 118,000 cases in 114 countries and 4,291 deaths, the WHO declares COVID-19 a pandemic.
+Detailed Information
+Using SAS software and based on CDC data, this report shows what counties and/or states were the most affected from January 22nd, 2020 to December 31st, 2021. 
+. Part 1- Analysis of Cases and Deaths that occurred up to March 1st and March 31st. 
+. Part 2 - Analysis of covid cases from August 1st, 2021 to December 31st, 2021 
+
+Part 1 (Lisette)
+After calculating the frequency of cases up to March 1st, 2020, 98.41% of counties had 0 cases. During the same period, the county with the highest number of cases was Los Angeles County, CA with 1,443 confirmed cases. This county accounted for 0.03% of the total counties. 
+For Covid deaths through March 1st, 2020, the results showed that 99.9% of the counties had 0 deaths. The county with the highest number of deaths was La Crosse County, WI with 5 deaths. This county represented 0.03% of the total counties.
+We also calculated the average of confirmed cases and deaths as of March 31st 2020. Considering a total of 3,142 counties, the average of confirmed cases was 61.04, and the average of deaths was 1.16.
+Additionally, from January through the end of March 2020, we calculated the total of confirmed Covid cases and deaths. These results were sorted to find the top three counties that had the most cases and deaths during this period. All these counties are in New York as follows:
+1.Queens County (13,869 cases), 2. Kings County (11,160 cases), and 3. Westchester County (9,967 cases). 
+1.Queens County (376 deaths), 2. Bronx County (262 deaths), and 3. Kings County (261 deaths).
+Overall findings
+At the beginning of Covid in the United States, specifically on March 1, 2020, 98.41% of counties across the country had 0 confirmed Covid cases and 99.9% of counties had 0 deaths.
+As of March 31, 2020, the average of confirmed cases was 61.04, and the average of deaths was 1.16. In addition, the CDC reported the highest number of cases (13,869) and the highest number of Covid deaths (376) in Queens County, NY. The changes represented an 861.12% increase in confirmed cases and a 7,420% increase in deaths from March 1 to March 31, 2020. Although California had the county with the most cases at the beginning of March, as the month progressed, New York became the state with the most confirmed cases and deaths by the end of March.
+
+Part 2 (Carlos)
+At first we had to clean some records in the data with the label of “Statewide Unallocated”. Then we created new variables for each month to calculate the number of cases by subtracting the last day of the desired month from the last day of the previous month. Once the data was ready, we found the average number of covid cases per county for each month by using PROC means in SAS.
+For the month of August, the national average of covid cases per county was 1,277. Then for the month of September the number marginally increased to 1,287. Next, we see a dip in October with 801 and November with 803. However, we see a huge increase in the month of December. By far this has been the highest count for the 5 months with 1,977 covid cases on average per county nationally. Similarly, we also wanted to observe which counties have been the most affected nationally. Therefore, we sorted each county in descending number of cases to advice where the CDC should distribute more aid.
+Looking at August, Los Angeles County in California had 83,756 covid cases nationally. Second came Miami-Dade County with 78,018 and lastly Harris County Texas with 72,560. In September, there was a dip in Harris County Texas with 58,494 cases, but an increase in Maricopa County Arizona where they had 52,592 cases that month. Sadly, we still see Los Angeles County California on the top three counties with 46,574 covid tests confirmed.
+In the month of October we see a dip in Maricopa County Arizona with 44,474 covid cases. Also, in Los Angeles County California with 34,309 and lastly in Cook County Illinois with 23,324 cases. In November, there is another increase occurred due to the holidays and people getting together inside. Maricopa County Arizona is by far the biggest hit with 63,593 covid cases. Nearly half of that number comes Los Angeles County California with 32,053 cases and Cook County Illinois still being hit with 34,447 confirmed cases.
+Lastly, in December we see a huge spike due to the holidays and people traveling. Los Angeles County California had 213,877 confirmed covid cases, second comes Miami-Dade County Florida with 168,546 cases and lastly, we have Cook County Illinois with 158,009 confirmed covid cases.
+Overall findings
+On the business report we highlight that the number of covid cases fluctuates depending on the time of the year. This might be because of temperature, location or holidays. Therefore, we would recommend the Senior Health Officials at the CDC to distribute aid to Los Angeles County California, Cook County Illinois, Maricopa County Arizona, Harris County Texas, and Miami-Dade County Florida. These locations are by far the most affected by the covid-19 pandemic and desperately need federal assistance.
